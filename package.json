@@ -1,0 +1,34 @@
+{
+  "name": "electron-react-starter-kit",
+  "version": "0.0.1",
+  "description": "A basic scaffolding to get started with building applications using Electron",
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . 'Change Me' --platform=all --arch=all --version=0.37.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turingschool-examples/electron-react-starter-kid.git"
+  },
+  "keywords": [
+    "electron",
+    "react"
+  ],
+  "author": "Steve Kinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingschool-examples/electron-react-starter-kid/issues"
+  },
+  "homepage": "https://github.com/turingschool-examples/electron-react-starter-kid#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "electron-packager": "^6.0.2",
+    "electron-prebuilt-compile": "^0.37.5",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.3.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  }
+}
