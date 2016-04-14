@@ -13,8 +13,10 @@ html, body {
 }
 
 body {
-  margin: 0;
+  margin: 20px;
   padding: 0;
+  background-color: black;
+    color: white;
 }
 
 body, input {
@@ -23,13 +25,80 @@ body, input {
 
 textarea, input, div, button { outline: none; }
 
+#steps {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#holder, #form, #button, #finish {
+  margin-left: 20px;
+}
+
+#drop {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
 #holder {
-  border: 10px dashed #ccc;
-  width: 300px;
+  border: 1px dashed #ccc;
   height: 100px;
-  margin: 20px auto;
+  background: #303030;
+  border-radius: 8px;
 }
 
 #holder.hover {
-  border: 10px dashed #333;
+  border: 1px dashed #980000;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.step {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #336600;
+}
+
+select {
+  background: #303030;
+  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 8px;
+  height: 34px;
+  color: white;
+}
+
+input {
+  background: #303030;
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 8px;
+  height: 34px;
+  color: white;
+  margin-left: 10px;
 }
