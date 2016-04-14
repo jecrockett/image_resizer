@@ -48,7 +48,7 @@ textarea, input, div, button { outline: none; }
 }
 
 #holder.hover {
-  border: 1px dashed #980000;
+  border: 1px dashed #4CAF50;
 }
 
 h1 {
